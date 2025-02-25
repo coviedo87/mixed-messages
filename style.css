@@ -1,0 +1,28 @@
+body {
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+button {
+    background-color: gold;
+    color: whitesmoke;
+    font-size: xx-large;
+    font-weight: bold;
+    padding: 20px;
+    border: 5px solid gold;
+}
+
+button:active {
+    background-color: orange;
+    border: 5px solid orange;
+}
